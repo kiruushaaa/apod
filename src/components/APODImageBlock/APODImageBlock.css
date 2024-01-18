@@ -1,0 +1,12 @@
+.apod {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    height: 70vh;
+}
+
+.apod div {
+    scroll-snap-align: center;
+    flex-shrink: 0;
+}
